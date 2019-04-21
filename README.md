@@ -3,7 +3,14 @@ Amazon Sumerian example with DynamoDB and Lambda functions
 
 [Example Scene])(http://bit.ly/2GtTywz)
 
-[Screencast]()
+[Screencast](https://www.youtube.com/watch?v=TuIja0QGQ6s)
+
+## References
+
+* [Amazon Cognito Setup Using AWS CloudFormation](https://docs.sumerian.amazonaws.com/tutorials/create/beginner/aws-setup/)
+* [Amazon DynamoDB Create, Read, Update, Delete (CRUD)](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.NodeJs.03.html)
+* [Amazon Sumerian -- Firehose Cookies?](https://medium.com/@kirbyshabaga/amazon-sumerian-firehose-cookies-3bb5273e22aa)
+* [EpochConverter](https://www.epochconverter.com/)
 
 ## Tutorial
 
@@ -62,7 +69,7 @@ AWSLambdaMicroserviceExecutionRole-******************
                 "dynamodb:Scan",
                 "dynamodb:UpdateItem"
             ],
-            "Resource": "arn:aws:dynamodb:us-west-2:633545525383:table/sumerianTutorialCookies"
+            "Resource": "arn:aws:dynamodb:**************************:table/sumerianTutorialCookies"
         }
     ]
 }
