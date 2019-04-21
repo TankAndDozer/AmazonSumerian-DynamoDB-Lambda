@@ -1,7 +1,7 @@
 # AmazonSumerian-DynamoDB-Lambda
 Amazon Sumerian example with DynamoDB and Lambda functions
 
-[Example Scene])(http://bit.ly/2GtTywz)
+[Example Scene](http://bit.ly/2GtTywz)
 
 [Screencast](https://www.youtube.com/watch?v=TuIja0QGQ6s)
 
